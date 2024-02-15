@@ -14,5 +14,5 @@ Readable directory in the python script: Z:/main_folder/folder1/main.py
    
    ![PowerSHell](https://github.com/JuilienH/executable-for-distributing-to-users/assets/22305109/652ec13e-698a-499f-92cf-c8dac4380bb6)
 3. Now we can see the directory in PowerShell has been pointing the virtual environment where I want to package my specifit python script. Then it is way clear where you are working on packing the script. Then simply type in ```pyinstaller --onefile your_script_name.py``` And wait for few minutes until you see the comments in PowerShell indicate the EXE is successfully created!
-4. You should easily find the folder "dist" under this specific virtual environment folder. You should see the executable is included inside.
-5. "Double click" the executable and you will see a prompt popping open. When the executable is completely run, the prompt will disappear. 
+4. You should easily find the folder "dist" under this specific virtual environment folder. You should see the executable is included inside. Now it is time to send out the executable for users!
+5. All the users have to do is "Double click" the executable and a prompt will be open. When the executable is completely run, the prompt will disappear. 
