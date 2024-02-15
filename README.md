@@ -12,7 +12,8 @@ Readable directory in the python script: Z:/main_folder/folder1/main.py
 1. In Mirocrsoft Visual Studio, install the python library, pyinstaller "in the python project" that you want the users to run. You can search many ways how to install it in cmd window, but I prefer in installlation in the same virtual environment where I build the python script to be shared. For keeping each development project clean while I usually have multiple lines of development going on, this is the best practice I always stick to.
 2. Once pyinstaller is installed successfully, click the highlighted link to open PowerShell, located at the bottom right panel in Microsoft Visual Studio.
    
-   ![PowerSHell](https://github.com/JuilienH/executable-for-distributing-to-users/assets/22305109/35ca9768-4301-4991-a84a-0fd604979d42)
+![PowerSHell](https://github.com/JuilienH/executable-for-distributing-to-users/assets/22305109/da539f9f-dc60-4662-bf4b-0e8ccfce45f2)
+
 
 3. Now we can see the directory in PowerShell has been pointing the virtual environment where I want to package my specifit python script. Then it is way clear where you are working on packing the script. Then simply type in ```pyinstaller --onefile your_script_name.py``` And wait for few minutes until you see the comments in PowerShell indicate the EXE is successfully created!
 4. You should easily find the folder "dist" under this specific virtual environment folder. You should see the executable is included inside. Now it is time to send out the executable for users!
